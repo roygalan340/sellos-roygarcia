@@ -8,14 +8,19 @@
     <!-- Open Graph / Etiquetas de Vista Previa para Redes Sociales -->
     <meta property="og:title" content="Sellos RoyGarcia" />
     <meta property="og:description" content="Trabajos de Imprenta en general." />
-    <meta property="og:image" content="imagenes/Publicidad2.png" />
+    <meta property="og:image" content="https://sellos-roygarcia.pages.dev/imagenes/vista-previa-whatsapp.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="1200" />
+    <meta property="og:image:alt" content="Logo de Sellos RoyGarcia" />
+    <meta property="og:url" content="https://sellos-roygarcia.pages.dev" />
     <meta property="og:type" content="website" />
     
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Sellos RoyGarcia">
     <meta name="twitter:description" content="Trabajos de Imprenta en general.">
-    <meta name="twitter:image" content="imagenes/Publicidad2.png">
+    <meta name="twitter:image" content="https://sellos-roygarcia.pages.dev/imagenes/vista-previa-whatsapp.jpg">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -26,6 +31,8 @@
             background: linear-gradient(135deg, #2563eb, #dc2626); 
             padding: 20px; 
             min-height: 100vh; 
+            box-sizing: border-box;
+            flex-direction: column;
             display: flex; 
             align-items: center; 
             justify-content: center; 
@@ -39,6 +46,17 @@
             max-width: 350px; 
             width: 90%;
             font-size: 20px;
+            margin: auto;
+        }
+
+        .footer-contacto {
+            flex-shrink: 0;
+            padding-top: 12px;
+            color: rgba(255, 255, 255, 0.85);
+            font-size: 11px;
+            line-height: 1.4;
+            text-align: center;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
         }
         
         .logo { width: 100%; height: auto; border-radius: 15px; margin-bottom: 20px; }
@@ -57,17 +75,23 @@
         /* Iconos de redes sociales */
         .redes-sociales {
             display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
             justify-content: center;
-            gap: 15px;
+            gap: 12px;
             margin: 20px 0;
         }
         
         .icono-social {
             display: flex;
+            flex: 0 0 44px;
             align-items: center;
             justify-content: center;
-            width: 45px;
-            height: 45px;
+            width: 44px;
+            height: 44px;
+            padding: 0;
+            box-sizing: border-box;
             border-radius: 50%;
             background: #2563eb;
             color: white;
@@ -103,6 +127,10 @@
         
         <a href="https://maps.app.goo.gl/xMPi8zv19Q2d3tLs5" target="_blank" class="boton btn-mapa"><i class="fas fa-map-marker-alt"></i> Ver Ubicación en Mapa</a>
     </div>
+
+    <footer class="footer-contacto">
+        Web Card digital-forma parte del grupo GALAN - Cel.: 69240891
+    </footer>
 
 </body>
 </html>
