@@ -2,7 +2,7 @@
     "informacion": {
         "nombre_negocio": "Sellos RoyGarcia",
         "titulo_principal": "Sellos de goma Roy Garcia",
-        "descripcion": "Trabajos de Imprenta en general.",
+        "descripcion": " Servicios graficos Tarjetas personales, Talonarios, Volantes, Letreros, Trabajos de Imprenta en general.",
         "whatsapp": "69240891",
         "catalogo": "",
         "facebook": "https://www.facebook.com/imprentaroygarcia/",
@@ -18,5 +18,6 @@
     "carrusel_principal": [],
     "botones": [],
     "plantilla": "Moderna",
+    "cloudflare_url": "https://sellos-roygarcia.pages.dev",
     "public_url": "https://sellos-roygarcia.pages.dev"
 }
